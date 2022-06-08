@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B830C97284F97B4003BE8D0 /* Otus_Homework_31_05_2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830C96284F97B4003BE8D0 /* Otus_Homework_31_05_2022App.swift */; };
-		8B830C99284F97B4003BE8D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830C98284F97B4003BE8D0 /* ContentView.swift */; };
+		8B10BC2C284F9E12000179B3 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10BC2B284F9E12000179B3 /* ArticleListViewModel.swift */; };
+		8B10BC2E284F9E3C000179B3 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10BC2D284F9E3C000179B3 /* RealmService.swift */; };
+		8B10BC30284F9E47000179B3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10BC2F284F9E47000179B3 /* NetworkService.swift */; };
+		8B10BC32284F9E59000179B3 /* DataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10BC31284F9E59000179B3 /* DataCoordinator.swift */; };
+		8B10BC38284FA012000179B3 /* ArticleListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10BC37284FA012000179B3 /* ArticleListResponse.swift */; };
+		8B10BC3A284FA5FA000179B3 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10BC39284FA5FA000179B3 /* APIHelper.swift */; };
+		8B489681284F9D7A00442CC7 /* Otus_Homework_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B489680284F9D7A00442CC7 /* Otus_Homework_App.swift */; };
 		8B830C9B284F97B5003BE8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B830C9A284F97B5003BE8D0 /* Assets.xcassets */; };
 		8B830C9E284F97B5003BE8D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B830C9D284F97B5003BE8D0 /* Preview Assets.xcassets */; };
+		8B830CA6284F98F3003BE8D0 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8B830CA5284F98F3003BE8D0 /* Realm */; };
+		8B830CA8284F98F3003BE8D0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B830CA7284F98F3003BE8D0 /* RealmSwift */; };
+		8B830CAA284F994A003BE8D0 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830CA9284F994A003BE8D0 /* ServiceLocator.swift */; };
+		8B830CAC284F995B003BE8D0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830CAB284F995B003BE8D0 /* Article.swift */; };
+		8B830CB2284F9D3C003BE8D0 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830CB1284F9D3C003BE8D0 /* ArticleListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B10BC2B284F9E12000179B3 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		8B10BC2D284F9E3C000179B3 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		8B10BC2F284F9E47000179B3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8B10BC31284F9E59000179B3 /* DataCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoordinator.swift; sourceTree = "<group>"; };
+		8B10BC37284FA012000179B3 /* ArticleListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListResponse.swift; sourceTree = "<group>"; };
+		8B10BC39284FA5FA000179B3 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		8B489680284F9D7A00442CC7 /* Otus_Homework_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus_Homework_App.swift; sourceTree = "<group>"; };
 		8B830C93284F97B4003BE8D0 /* Otus_Homework_31.05.2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus_Homework_31.05.2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B830C96284F97B4003BE8D0 /* Otus_Homework_31_05_2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus_Homework_31_05_2022App.swift; sourceTree = "<group>"; };
-		8B830C98284F97B4003BE8D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B830C9A284F97B5003BE8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B830C9D284F97B5003BE8D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B830CA9284F994A003BE8D0 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		8B830CAB284F995B003BE8D0 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		8B830CB1284F9D3C003BE8D0 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +44,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B830CA8284F98F3003BE8D0 /* RealmSwift in Frameworks */,
+				8B830CA6284F98F3003BE8D0 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B10BC28284F9DCC000179B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B830CB1284F9D3C003BE8D0 /* ArticleListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B10BC33284F9E63000179B3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8B10BC2D284F9E3C000179B3 /* RealmService.swift */,
+				8B10BC2F284F9E47000179B3 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8B10BC34284F9E85000179B3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8B10BC31284F9E59000179B3 /* DataCoordinator.swift */,
+				8B830CA9284F994A003BE8D0 /* ServiceLocator.swift */,
+				8B10BC39284FA5FA000179B3 /* APIHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8B10BC35284F9E90000179B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B10BC2B284F9E12000179B3 /* ArticleListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B10BC36284F9E9F000179B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B830CAB284F995B003BE8D0 /* Article.swift */,
+				8B10BC37284FA012000179B3 /* ArticleListResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8B830C8A284F97B4003BE8D0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +115,12 @@
 		8B830C95284F97B4003BE8D0 /* Otus_Homework_31.05.2022 */ = {
 			isa = PBXGroup;
 			children = (
-				8B830C96284F97B4003BE8D0 /* Otus_Homework_31_05_2022App.swift */,
-				8B830C98284F97B4003BE8D0 /* ContentView.swift */,
+				8B489680284F9D7A00442CC7 /* Otus_Homework_App.swift */,
+				8B10BC36284F9E9F000179B3 /* Model */,
+				8B10BC28284F9DCC000179B3 /* View */,
+				8B10BC35284F9E90000179B3 /* ViewModel */,
+				8B10BC33284F9E63000179B3 /* Services */,
+				8B10BC34284F9E85000179B3 /* Utils */,
 				8B830C9A284F97B5003BE8D0 /* Assets.xcassets */,
 				8B830C9C284F97B5003BE8D0 /* Preview Content */,
 			);
@@ -83,6 +151,10 @@
 			dependencies = (
 			);
 			name = Otus_Homework_31.05.2022;
+			packageProductDependencies = (
+				8B830CA5284F98F3003BE8D0 /* Realm */,
+				8B830CA7284F98F3003BE8D0 /* RealmSwift */,
+			);
 			productName = Otus_Homework_31.05.2022;
 			productReference = 8B830C93284F97B4003BE8D0 /* Otus_Homework_31.05.2022.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 8B830C8A284F97B4003BE8D0;
+			packageReferences = (
+				8B830CA4284F98F3003BE8D0 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 8B830C94284F97B4003BE8D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B830C99284F97B4003BE8D0 /* ContentView.swift in Sources */,
-				8B830C97284F97B4003BE8D0 /* Otus_Homework_31_05_2022App.swift in Sources */,
+				8B10BC2C284F9E12000179B3 /* ArticleListViewModel.swift in Sources */,
+				8B10BC2E284F9E3C000179B3 /* RealmService.swift in Sources */,
+				8B830CAC284F995B003BE8D0 /* Article.swift in Sources */,
+				8B489681284F9D7A00442CC7 /* Otus_Homework_App.swift in Sources */,
+				8B10BC38284FA012000179B3 /* ArticleListResponse.swift in Sources */,
+				8B830CAA284F994A003BE8D0 /* ServiceLocator.swift in Sources */,
+				8B830CB2284F9D3C003BE8D0 /* ArticleListView.swift in Sources */,
+				8B10BC32284F9E59000179B3 /* DataCoordinator.swift in Sources */,
+				8B10BC3A284FA5FA000179B3 /* APIHelper.swift in Sources */,
+				8B10BC30284F9E47000179B3 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +424,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B830CA4284F98F3003BE8D0 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B830CA5284F98F3003BE8D0 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B830CA4284F98F3003BE8D0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		8B830CA7284F98F3003BE8D0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B830CA4284F98F3003BE8D0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B830C8B284F97B4003BE8D0 /* Project object */;
 }
